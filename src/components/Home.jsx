@@ -8,35 +8,36 @@ export default function Home() {
         <div className="home">
             <div className="info">
                 <h1>Hey there, welcome to my portfolio.</h1>
-                <img src="headshot.png" />
+                <img src={`${import.meta.env.BASE_URL}headshot.png`} />
             </div>
 
             <div className="links">
 
-                <Link to="/about">
+                <Link to="/about" className="link-card">
                     <div>
                         <h2>About</h2>
-                        <p>Learn more about me, my experience, and what's currently in the works.</p>
+                        <p>Learn more about my background, experience, and current work.</p>
                     </div>
                 </Link>
 
-                <Link to="/capstone">
+                <Link to="/capstone" className="link-card">
                     <div>
                         <h2>Capstone</h2>
-                        <p>An in-depth overview of my capstone project.</p>
+                        <p>Explore the design and development process behind Anchor.</p>
                     </div>
                 </Link>
 
-                <Link to="/bibliography">
+                <Link to="/bibliography" className="link-card">
                     <div>
                         <h2>Bibliography</h2>
+                        <p>Research, references, and resources that informed my project.</p>
                     </div>
                 </Link>
 
-                <Link to="/contact">
+                <Link to="/contact" className="link-card">
                     <div>
                         <h2>Contact</h2>
-                        <p>Got a question for me?</p>
+                        <p>Questions, feedback, or opportunities to connect.</p>
                     </div>
                 </Link>
             </div>

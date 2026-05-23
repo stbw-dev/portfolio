@@ -1,5 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+
+    border-bottom: 1px solid #e5e7eb;
+
+    background: white;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
 .nav {
     display: flex;
-    justify-content: end;
-    gap: 5px;
+    gap: 0.9rem;
+}
+
+.nav a,
+.nav a:visited {
+    color: #111827;
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: #2563eb;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.socials img:hover {
+    transform: translateY(-2px);
+    opacity: 0.8;
 }
