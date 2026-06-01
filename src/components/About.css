@@ -1,0 +1,14 @@
+.resume {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+     text-decoration: none;
+     border-radius: 5px;
+     font-weight: bold;
+     display: inline-block;
+     transition: background 0.3s ease;
+}
+
+.resume:hover {
+    background-color: #0056b3;
+}

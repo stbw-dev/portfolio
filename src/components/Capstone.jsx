@@ -1,4 +1,5 @@
 import { HashLink } from "react-router-hash-link"
+import { Link } from 'react-router-dom'
 import './Capstone.css'
 import CapNav from "./CapNav"
 import Developer from "./capstone/Developer"
@@ -9,13 +10,29 @@ export default function Capstone() {
     return (
         <div id="main">
             <h1>Capstone Case Study</h1>
-            <CapNav />
-            
-            <HashLink smooth to="#root" className="back-top">Back to top</HashLink>
 
-            <User />
-            <Developer />
-            <Self />
+            <div className="links">
+                <Link to="/userperspect" className="link-card">
+                    <div>
+                        <h2>User perspective</h2>
+                        <p>User perspective</p>
+                    </div>
+                </Link>
+
+                <Link to="/devperspect" className="link-card">
+                    <div>
+                        <h2>Developer Perspective</h2>
+                        <p>Developer Perspective</p>
+                    </div>
+                </Link>
+
+                <Link to="/myperspect" className="link-card">
+                    <div>
+                        <h2>My Perspective</h2>
+                        <p>My Perspective</p>
+                    </div>
+                </Link>
+            </div>
         </div>
     )
 }

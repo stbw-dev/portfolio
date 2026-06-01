@@ -6,13 +6,20 @@ export default function Home() {
 
     return (
         <div className="home">
-            <div className="info">
-                <h1>Hey there, welcome to my portfolio.</h1>
-                <img src={`${import.meta.env.BASE_URL}headshot.png`} />
-            </div>
+            <section className="hero">
+                <p className="eyebrow">Portfolio & Capstone Case Study</p>
+
+                <h1>Hey there, I'm Stafford.</h1>
+
+                <p className="subtitle">CS Senior at UW Bothell and aspiring Fullstack Developer / Software Engineer</p>
+
+                <p className="description">
+                    This portfolio documents the design, development, and lessons learned while building Anchor, an emotional wellness application developed as my capstone project.
+                </p>
+            </section>
+
 
             <div className="links">
-
                 <Link to="/about" className="link-card">
                     <div>
                         <h2>About</h2>
