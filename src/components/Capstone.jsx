@@ -1,7 +1,6 @@
 import { HashLink } from "react-router-hash-link"
 import { Link } from 'react-router-dom'
 import './Capstone.css'
-import CapNav from "./CapNav"
 import Developer from "./capstone/Developer"
 import Self from "./capstone/Self"
 import User from "./capstone/User"
@@ -26,7 +25,7 @@ export default function Capstone() {
                     </div>
                 </Link>
 
-                <Link to="/myperspect" className="link-card">
+                <Link to="/myperspective" className="link-card">
                     <div>
                         <h2>My Perspective</h2>
                         <p>My Perspective</p>
