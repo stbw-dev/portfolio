@@ -8,7 +8,7 @@ export default function Developer() {
         <section id="developer-perspective" className="devMain">
             <HashLink smooth to="#root" className="back-top">Back to top</HashLink>
 
-            <h1>Developer's Perspective.</h1>
+            <h1>Developer's Perspective</h1>
 
             <AccordionItem title="Design">
                 <div className="devDesign">

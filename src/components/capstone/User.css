@@ -1,5 +1,42 @@
 .userMain {
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 3rem 1.5rem;
+}
+
+.userMain h1 {
+    font-size: clamp(2.5rem, 5vw, 3.75rem);
+
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+
+    margin-bottom: 2rem;
+}
+
+.content-card {
+    background: white;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+
+    padding: 2.5rem;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.content-card h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+    font-size: 1.6rem;
+}
+
+.content-card h2:first-child {
+    margin-top: 0;
+}
+
+.content-card p {
+    line-height: 1.8;
+    color: #374151;
 }

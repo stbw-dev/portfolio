@@ -11,6 +11,7 @@ import Contact from './components/Contact.jsx'
 import Developer from './components/capstone/Developer.jsx'
 import Self from './components/capstone/Self.jsx'
 import User from './components/capstone/User.jsx'
+import Footer from './components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
     <HashRouter>
@@ -27,7 +28,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <small>Stafford Winn 2026</small> |{" "}
-      <small>Created in <a href="https://react.dev/">React</a> and deployed with <a href="https://docs.github.com/en/pages">GitHub Pages</a>.</small>
+      <Footer />
     </HashRouter>
 )

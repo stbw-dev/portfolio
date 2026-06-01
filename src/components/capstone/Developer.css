@@ -1,9 +1,83 @@
-.devMain {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem;
+.devMain,
+.selfMain,
+.userMain {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  line-height: 1.75;
+  color: #1f2937;
 }
 
-.devMain * figure img {
-    max-width: 700px;
+.devMain h1,
+.selfMain h1,
+.userMain h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  letter-spacing: -0.03em;
+}
+
+.devMain h2,
+.selfMain h2,
+.userMain h2 {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.devMain p,
+.selfMain p,
+.userMain p {
+  font-size: 1.03rem;
+  color: #374151;
+}
+
+.devMain figure,
+.selfMain figure,
+.userMain figure {
+  margin: 2rem 0;
+}
+
+.devMain figure img,
+.selfMain figure img,
+.userMain figure img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 700;
+  color: #111827;
+}
+
+td {
+  color: #374151;
 }

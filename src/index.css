@@ -12,3 +12,25 @@ body,
 body {
   background-color: #fafafa;
 }
+
+body {
+    font-family:
+        Inter,
+        system-ui,
+        sans-serif;
+
+    color: #111827;
+}
+
+p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+h1 {
+    line-height: 1.1;
+}
+
+h2 {
+    line-height: 1.2;
+}

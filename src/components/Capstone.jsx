@@ -8,10 +8,10 @@ import User from "./capstone/User"
 
 export default function Capstone() {
     return (
-        <div id="main">
+        <div className="capstoneMain">
             <h1>Capstone Case Study</h1>
 
-            <div className="links">
+            <div className="capstone-links">
                 <Link to="/userperspect" className="link-card">
                     <div>
                         <h2>User perspective</h2>

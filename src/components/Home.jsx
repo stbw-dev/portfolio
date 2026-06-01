@@ -19,7 +19,7 @@ export default function Home() {
             </section>
 
 
-            <div className="links">
+            <div className="home-links">
                 <Link to="/about" className="link-card">
                     <div>
                         <h2>About</h2>
