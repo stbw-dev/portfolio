@@ -7,15 +7,12 @@ export default function Self() {
         <section className="selfMain">
             <HashLink smooth to="#root" className="back-top">Back to top</HashLink>
 
-            <h1>Self Reflection of my Capstone</h1>
+            <h1>Reflection</h1>
 
             <div className="content-card">
-                <h2>Discovering myself, and finding out how to build something meaningful</h2>
+                <h2>Building something meaningful</h2>
                 <p>
-                    Prior to starting my Capstone, I had hoped that I would be able to come into prepared on what I wanted to do for my project. I had ambitions of doing an Internship as part
-                    of my capstone, however, I was fairly late in my planning. Realistically I knew that the timing was not right and that my chances of actually landing an internship that
-                    alligned with a date before the Summer was slim to none. This didn't detract from my goals however, I was more than content with being able to work on something that I could
-                    feel was meaningful for my capstone. Unfortunately, I really struggled to land on an idea for my project at the start. I tried brainstorming using various methods but none
+                    Prior to starting my Capstone, I had hoped that I would be able to come into it prepared on what I wanted to do for my project. Unfortunately, I really struggled to land on an idea for my project at the start. I tried brainstorming using various methods but none
                     of the ideas I came up with felt substantial or resonated with me that deeply.
                 </p>
 

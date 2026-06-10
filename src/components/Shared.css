@@ -69,3 +69,8 @@
     color: #6b7280;
     font-size: 0.9rem;
 }
+
+.hanging-indent {
+    padding-left: 36px;     /* Adjust this value to set the indent depth */
+    text-indent: -36px;    /* This must match the negative of your padding */
+}

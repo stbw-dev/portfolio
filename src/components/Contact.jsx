@@ -19,7 +19,7 @@ export default function Contact() {
                     GitHub
                 </a>
 
-                <a className="page-button secondary" href="https://www.linkedin.com/in/staffordwinn/" target="_blank" rel="noopener noreferrer">
+                <a className="page-button" href="https://www.linkedin.com/in/staffordwinn/" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
             </div>

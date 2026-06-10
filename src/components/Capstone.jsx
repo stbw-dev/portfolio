@@ -12,23 +12,23 @@ export default function Capstone() {
 
             <div className="capstone-links">
                 <Link to="/userperspect" className="link-card">
-                    <div>
-                        <h2>User perspective</h2>
-                        <p>User perspective</p>
+                    <div className="card-content">
+                        <h2>Using Anchor</h2>
+                        <p>Learn more about the purpose of Anchor and what it offers.</p>
                     </div>
                 </Link>
 
                 <Link to="/devperspect" className="link-card">
-                    <div>
-                        <h2>Developer Perspective</h2>
-                        <p>Developer Perspective</p>
+                    <div className="card-content">
+                        <h2>Development Process</h2>
+                        <p>A technical overview of the thought process behind building Anchor.</p>
                     </div>
                 </Link>
 
                 <Link to="/myperspective" className="link-card">
-                    <div>
-                        <h2>My Perspective</h2>
-                        <p>My Perspective</p>
+                    <div className="card-content">
+                        <h2>Reflection</h2>
+                        <p>My motivations for building Anchor, and what I've learned from it.</p>
                     </div>
                 </Link>
             </div>

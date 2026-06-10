@@ -13,9 +13,9 @@ export default function Header() {
                 <div className="dropdown" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
                     <Link to="/capstone">Capstone</Link>
                     {isOpen && (<ul className="dropdown-menu">
-                        <li><Link to="/userperspect">User Perspective</Link></li>
-                        <li><Link to="/devperspect">Developer Perspective</Link></li>
-                        <li><Link to="/myperspective">My Perspective</Link></li>
+                        <li><Link to="/userperspect">Using Anchor</Link></li>
+                        <li><Link to="/devperspect">Development Process</Link></li>
+                        <li><Link to="/myperspective">Reflection</Link></li>
                     </ul>)}
                 </div>
                 <Link to="/bibliography">Bibliography</Link>

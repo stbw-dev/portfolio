@@ -34,22 +34,35 @@
 .devMain figure,
 .selfMain figure,
 .userMain figure {
-  margin: 2rem 0;
+  margin: 2rem auto;
+  text-align: center;
 }
 
 .devMain figure img,
 .selfMain figure img,
 .userMain figure img {
   display: block;
-  max-width: 100%;
   width: 100%;
+  max-width: 760px;
+  height: auto;
+
+  margin: 0 auto;
+
   border-radius: 14px;
   border: 1px solid #e5e7eb;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
 }
 
+.devMain figure.small-figure img {
+  max-width: 520px;
+  max-height: 500px;
+  object-fit: contain;
+}
+
 figcaption {
-  margin-top: 0.75rem;
+  max-width: 700px;
+  margin: 0.75rem auto 0;
+
   font-size: 0.9rem;
   color: #6b7280;
   line-height: 1.5;

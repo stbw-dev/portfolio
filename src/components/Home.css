@@ -12,6 +12,20 @@
     max-width: 760px;
     margin: 0 auto;
     text-align: center;
+
+    animation: slideUp 0.8s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .eyebrow {
@@ -100,6 +114,36 @@
 
     line-height: 1.6;
     color: #4b5563;
+}
+
+.card-content {
+    opacity: 0;
+    transform: scale(0.97);
+
+    animation: cardEnter 0.4s ease forwards;
+}
+
+@keyframes cardEnter {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.link-card:nth-child(1) .card-content {
+    animation-delay: 0.1s;
+}
+
+.link-card:nth-child(2) .card-content {
+    animation-delay: 0.2s;
+}
+
+.link-card:nth-child(3) .card-content {
+    animation-delay: 0.3s;
+}
+
+.link-card:nth-child(4) .card-content {
+    animation-delay: 0.4s;
 }
 
 @media (max-width: 900px) {

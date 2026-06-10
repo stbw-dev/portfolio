@@ -8,7 +8,7 @@ export default function Developer() {
         <section id="developer-perspective" className="devMain">
             <HashLink smooth to="#root" className="back-top">Back to top</HashLink>
 
-            <h1>Developer's Perspective</h1>
+            <h1>Development Process</h1>
 
             <AccordionItem title="Design">
                 <div className="devDesign">
@@ -233,7 +233,7 @@ export default function Developer() {
                             that would make up the data in my system. From there I used Logical Data Modeling, utilizing Normalization, to build the ERD.
                         </p>
 
-                        <figure>
+                        <figure className="small-figure">
                             <img src={`${import.meta.env.BASE_URL}ldm.png`} alt="logical data model in text form"/>
                             <figcaption>Figure 2.2.3: Initial LDM during database design</figcaption>
                         </figure>
@@ -248,7 +248,7 @@ export default function Developer() {
                             Figure 2.2.4 provides a graphic of my database schema in its most recent state.
                         </p>
 
-                        <figure>
+                        <figure className="small-figure">
                             <img src={`${import.meta.env.BASE_URL}schema.png`} alt="database schema"/>
                             <figcaption>Figure 2.2.4: Database schema</figcaption>
                         </figure>

@@ -11,7 +11,7 @@ export default function About() {
                 <h2>Who I am.</h2>
                 <p>
                     Born and raised in the Pacific Northwest, I've spent the last 4 years working in IT support. With 2 years of Computer Science study under my belt, in late 2024, I made
-                    the decision to switch careers. I was accepted into the University of Washington - Bothell's CSSE (Computer Science & Software Engineering) in December 2024 and have spent
+                    the decision to switch careers. I was accepted into the University of Washington Bothell's CSSE (Computer Science & Software Engineering) in December 2024 and have spent
                     the last 2 years completing my degree. I will be graduating in August 2026 with a Bachelor of Science in Computer Science.
                 </p>
             </section>
@@ -33,13 +33,13 @@ export default function About() {
             <section className="page-card">
                 <h2>Future</h2>
                 <p>
-                    I plan to continue development of Anchor beyond my capstone as a passion project, with hopes of possibly expanding it beyond its current scope so that others can openly
-                    contribute. I am also currently looking for opportunities where I can help and contribute to existing projects/research opportunities with eventual aspirations to pursue
-                    a Master's Degree in grad school.
+                    I am currently exploring opportunities in software engineering, research, and collaborative development where I can continue building my technical skills while 
+                    contributing to projects that create meaningful value. Long-term, I hope to expand my knowledge of software engineering through both industry experience and 
+                    the potential pursuit of a Master's degree.
                 </p>
             </section>
 
-            <a className="page-button" href="swresume.pdf">Download my Resume</a>
+            <a className="page-button" href="swresume.pdf">My Resume</a>
         </main>
     )
 }

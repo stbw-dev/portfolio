@@ -21,28 +21,28 @@ export default function Home() {
 
             <div className="home-links">
                 <Link to="/about" className="link-card">
-                    <div>
+                    <div className="card-content">
                         <h2>About</h2>
                         <p>Learn more about my background, experience, and current work.</p>
                     </div>
                 </Link>
 
                 <Link to="/capstone" className="link-card">
-                    <div>
+                    <div className="card-content">
                         <h2>Capstone</h2>
                         <p>Explore the design and development process behind Anchor.</p>
                     </div>
                 </Link>
 
                 <Link to="/bibliography" className="link-card">
-                    <div>
+                    <div className="card-content">
                         <h2>Bibliography</h2>
                         <p>Research, references, and resources that informed my project.</p>
                     </div>
                 </Link>
 
                 <Link to="/contact" className="link-card">
-                    <div>
+                    <div className="card-content">
                         <h2>Contact</h2>
                         <p>Questions, feedback, or opportunities to connect.</p>
                     </div>
